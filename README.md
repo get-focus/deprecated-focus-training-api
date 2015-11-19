@@ -25,17 +25,21 @@ npm start
 
 Les services disponibles sont les suivants :
 
-GET /movies/:id
-GET /movies/:id/actors
-GET /movies/:id/cameramen
-GET /movies/:id/directors
-GET /movies/:id/producers
-GET /movies/:id/writers
-PUT /movies/:id
+| METHOD  | URL                    |
+| ------- | ---------------------- |
+| GET     | /movies/:id            |
+| GET     | /movies/:id/actors     |
+| GET     | /movies/:id/cameramen  |
+| GET     | /movies/:id/directors  |
+| GET     | /movies/:id/producers  |
+| GET     | /movies/:id/writers    |
+| PUT     | /movies/:id            |
 
-GET /persons/:id
-GET /persons/:id/movies
-PUT /persons/:id
+| METHOD  | URL                    |
+| ------- | ---------------------- |
+| GET     | /persons/:id           |
+| GET     | /persons/:id/movies    |
+| PUT     | /persons/:id           |
 
 Vous pouvez les tester dans votre navigateur, en saisissant par exemple :
 ```
