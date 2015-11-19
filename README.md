@@ -21,6 +21,23 @@ npm install
 npm start
 ```
 
-## Utiliser l'API
+## Utiliser l'API : liste des services
 
+Les services disponibles sont les suivants :
 
+GET /movies/:id
+GET /movies/:id/actors
+GET /movies/:id/cameramen
+GET /movies/:id/directors
+GET /movies/:id/producers
+GET /movies/:id/writers
+PUT /movies/:id
+
+GET /persons/:id
+GET /persons/:id/movies
+PUT /persons/:id
+
+Vous pouvez les tester dans votre navigateur, en saisissant par exemple :
+```
+http://localhost:9999/movies/10053
+```
