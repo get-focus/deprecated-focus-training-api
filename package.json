@@ -1,0 +1,29 @@
+{
+    "author": "focus@kleegroup.com",
+    "name": "focus-training-app",
+    "description": "API pour le training FOCUS",
+    "version": "1.0.0",
+    "homepage": "https://github.com/get-focus/focus-training-api",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/get-focus/focus-training-api.git"
+    },
+    "engines": {
+        "node": "0.4.x",
+        "npm": "2.14.x"
+    },
+    "scripts": {
+        "start": "node api"
+    },
+    "main": "api/index.js",
+    "directories": {
+        "test": "test"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.14.1",
+        "express": "^4.13.3",
+        "lodash": "^3.10.1",
+        "moment": "^2.10.3"
+    }
+}
