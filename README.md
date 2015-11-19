@@ -5,21 +5,21 @@ API pour le training FOCUS
 
 Cloner le projet en local :
 
-’’’bash
+```bash
 git clone https://github.com/get-focus/focus-training-api.git
-’’’
+```
 
 Installer les dépendances du projet :
 
-’’’bash
+```bash
 npm install
-’’’
+```
 
 ## Lancer l'API
 
-’’’bash
+```bash
 npm start
-’’’
+```
 
 ## Utiliser l'API
 
