@@ -193,5 +193,5 @@ app.get('/test/error', function error(req, res) {
 // Launch the server Server
 const server = app.listen(port, () => {
     const port = server.address().port;
-    console.log('Mocked NOTIFICATION API listening at http://localhost:%s', port);
+    console.log('Mocked TRAINING FOCUS API listening at http://localhost:%s', port);
 });
